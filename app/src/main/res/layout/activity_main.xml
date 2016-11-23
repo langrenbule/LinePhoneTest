@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/sip_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4006"/>
+
+    <EditText
+        android:id="@+id/sip_domain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ip-phone.keytop.cn:10060"/>
+
+    <EditText
+        android:id="@+id/sip_tocallAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4005"/>
+
+    <Button
+        android:id="@+id/sip_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"/>
+
+    <Button
+        android:id="@+id/sip_tocall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拨打"/>
+    <Button
+        android:id="@+id/sip_accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="接听"/>
+
+    <TextView
+        android:id="@+id/sip_log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
